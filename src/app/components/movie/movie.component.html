@@ -1,0 +1,28 @@
+<br />
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card text-center">
+          <div class="card-header" id="movieHeader">
+            {{movie.Title}}
+          </div>
+          <img [src]="movie.Poster" class="card-img-top" alt="...">
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text" id="moviePlot">{{movie.Plot}}</p>
+            <p class="card-text">{{movie.Genre}}</p>
+            <p class="card-text">{{movie.Writer}}</p>
+            <p class="card-text">{{movie.Awards}}</p>
+            <p class="card-text">{{movie.Country}}</p>
+            <p class="card-text">{{movie.Director}}</p>
+            <p class="card-text">{{movie.Production}}</p>
+            <p class="card-text">{{movie.imdbRating}}</p>
+          </div>
+        </div>
+        <button routerLink="/home" type="button" class="btn btn-block btn-outline-danger">
+          Regresar
+        </button>
+    </div>
+</div>
