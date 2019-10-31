@@ -13,4 +13,4 @@ http://www.omdbapi.com/
 
 ## Pagina en funcionamiento
 
-movieapp.epizy.com
+http://www.movieapp.epizy.com
